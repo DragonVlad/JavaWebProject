@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+<title>Главная страница</title>
+<meta charset = "UTF-8">
+<meta name = "description" content = "Заказ билетов на междугородние перевозки в РБ">
+<meta name = "keywords" content = "Заказ, билеты, перевозки, РБ">
+<link rel = "stylesheet" href = "C:/Users/Vadim/IdeaProjects/RouteApp/src/main/resources/static/css/Mystyle.css">
+</head>
+<body>
+	<div class = "topbar">
+	<div class = "header">
+		<h1>Bilet.by</h1>
+		</div>
+		<div class = "links">
+		<a class = "link" href = "registration.html" target = "_blank">Регистрация</a>
+		<a class = "link" href = "login.html" target = "_blank">Вход в аккаунт</a>
+		<a class = "link" href = "Расписание.html" target = "_blank">Расписание</a>
+		<a class = "link" href = "Карта.html" target = "_blank">Карта маршрута</a>
+			<div class="dropdown">
+				<button class="dropbtn"><img src = "C:/Users/Vadim/IdeaProjects/RouteApp/src/main/resources/static/images/rus.png" alt = "choice"/></button>
+				<div class="dropdown-content">
+				<a href="#"><img src = "C:/Users/Vadim/IdeaProjects/RouteApp/src/main/resources/static/images/rus.png" alt = "russian_language"/>Ru</a>
+				<a href="#"><img src = "C:/Users/Vadim/IdeaProjects/RouteApp/src/main/resources/static/images/bel.png" alt = "belarussian_language"/>Bel</a>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class = "selector">
+		<a href = "path"></a>
+		<form action = "#" method = "post">
+			<input type = "text" name = "pointA" id = "pointA" placeholder = "Откуда">
+			<input type = "text" name = "pointB" id = "pointB" placeholder = "Куда">
+			<input type = "date" name = "date" id = "date" value = "2020-03-14">
+			<input type = "num" name = "num" id = "num" value = 1>
+			<input type = "button" name = "search" id = "search" value = "Найти">
+		</form>
+	</div>
+	<div class = "description">
+		<p>Все крупные города Беларуси связаны между собой посредством внутренних и междугородних автобусных маршрутов. Такому уровню связи между городами способствует взаимодействие между белорусскими компаниями пассажирских перевозок и заводами по производству общественного транспорта. Вы можете совершать как региональные, так и междугородние поездки. Например, из Минска в Брест, либо из Витебска в Гродно. Для этого достататочно лишь выбрать направление и заказать билет.</p>
+	</div>
+		<div class = "popular">
+			<p>Наиболее часто выбираемые междугородние маршруты</p>
+		</div>
+		<div class = "lastPart">
+		<div class = "img">
+		<img class = "town1" src = "C:/Users/Vadim/IdeaProjects/RouteApp/src/main/resources/static/images/Город1.jpg" width = "183" height = "180" title = "Город1">
+		<img class = "town2" src = "C:/Users/Vadim/IdeaProjects/RouteApp/src/main/resources/static/images/Город2.jpg" width = "186" height = "180" title = "Город2">
+		<img class = "town3" src = "C:/Users/Vadim/IdeaProjects/RouteApp/src/main/resources/static/images/Город3.jpg" width = "274" height = "184" title = "Город3">
+		</div>
+		<div class = "intro">
+		<p>Быстро расширившаяся сеть междугородних автобусных линий с легкостью справляется с перевозками многих сотен людей каждый день. Все больше и больше людей, и местных, и туристов, выбирают именно этот вид транспорта для перемещений по нашей стране. И нет ничего удивительного в том, что появляются новые компании, предоставляющие услуги перевозок. А компании междугородних линий объединяются в большую домашнюю сеть. </p>
+		</div>
+		<div class = "sLinks">
+		<ul>
+		<div class = "column">
+		<li><a href = "#path" target = "_self">Минск - Брест</a></li>
+		<li><a href = "#path" target = "_self">Минск - Витебск</a></li>
+		<li><a href = "#path" target = "_self">Минск - Гомель</a></li>
+		<li><a href = "#path" target = "_self">Минск - Гродно</a></li>
+		<li><a href = "#path" target = "_self">Минск - Бобруйск</a></li>
+		<li><a href = "#path" target = "_self">Минск - Борисов</a></li>
+		<li><a href = "#path" target = "_self">Минск - Браслав</a></li>
+		<li><a href = "#path" target = "_self">Минск - Волковыск</a></li>
+		<li><a href = "#path" target = "_self">Минск - Кобрин</a></li>
+		<li><a href = "#path" target = "_self">Минск - Кричев</a></li>
+		<li><a href = "#path" target = "_self">Минск - Лида</a></li>
+		<li><a href = "#path" target = "_self">Минск - Могилев</a></li>
+		<li><a href = "#path" target = "_self">Минск - Несвиж</a></li>
+		<li><a href = "#path" target = "_self">Минск - Полоцк</a></li>
+		<li><a href = "#path" target = "_self">Минск - Пинск</a></li>
+		</div>
+		</ul>
+		</div>
+		</div>
+</body>	
+</html>
